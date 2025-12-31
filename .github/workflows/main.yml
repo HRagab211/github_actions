@@ -19,4 +19,7 @@ jobs:
       
       - name: print the current dir
         run: pwd
+
+      - name: push to server
+        uses: actions/test
         
