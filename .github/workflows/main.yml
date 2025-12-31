@@ -16,4 +16,7 @@ jobs:
 
       - name: List repo file
         run: ls -la
+      
+      - name: print the current dir
+        run: pwd
         
